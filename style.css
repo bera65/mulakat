@@ -1,0 +1,16 @@
+* {padding:0;margin:0}
+*, ::before, ::after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+body {font: 13px/21px arial;}
+.container {margin-right: auto;margin-left: auto;padding-left: 15px;padding-right: 15px;padding-top:20px; width:100%; max-width:1200px}
+.row {margin-left: -15px;margin-right: -15px;}
+.row::after {clear: both;}
+.row::before, .row::after {content: " ";display: table;}
+.cloumnLeft, .cloumnRight {width:50%;float:left;padding:0px 15px}
+.cloumnLeft > div , .cloumnRight > div {border:2px solid #ddd;padding: 10px;margin-bottom: 10px; text-align: center; display: flex;}
+
+/*** mobilde görünüm için kodlarda düzenleme yapalım ***/
+
+@media screen and (max-width: 768px)
+{
+	.cloumnLeft, .cloumnRight {width:100%;clear:both}
+}
