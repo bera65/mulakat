@@ -7,7 +7,7 @@ html, body {height: 100%;font: 13px/21px Arial ;}
 .row::after {clear: both;}
 .row::before, .row::after {content: " ";display: table;}
 .cloumnLeft, .cloumnRight {width:50%;float:left;padding:0px 15px;}
-.cloumnLeft > div , .cloumnRight > div {border: 1px solid #222;padding: 10px;margin-bottom: 10px;justify-content: center;display: flex;align-items: center;height:calc(100vh - 200px)}
+.cloumnLeft > div , .cloumnRight > div {border: 1px solid #222;padding: 10px;margin-bottom: 10px;text-align: center;justify-content: center;display: flex;align-items: center;height:calc(100vh - 200px)}
 
 /*** mobilde görünüm için kodlarda düzenleme yapalım ***/
 
